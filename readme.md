@@ -1,14 +1,4 @@
-3. zadanie Tomas Both
+This app was a school assignment for the course VAVJS_B (Application development in JavaScript) at FIIT STUBA.
 
-- Dockerfiles a sposob ako nacitac react mam z prednasky c.10.
+The app consists of a Express.js backend, React.js frontend and MySQL database, and runs on Docker. The goal of this project was to create a very simple webshop, where the user can buy 3 different kinds of items. The webshop contains a product page, a cart page and a checkout page. It contains an admin page aswell.
 
-- Implementoval som košík s možnosťou viac produktov a viac kusov v 1 objednavke. (na stranke produktov "Add 1 piece to basket" znamená že pridám 1ks daného 
- produktu do košíka, teda ak napríkad stlačím "Add 1 piece to basket" 5krát, tak mám 5ks z daného produktu v košíku)
-
- -Na stránke s formulárom tlačidlo submit pošle objednávku do databázy, tlačidlo next len naviguje na stránku s bannerom
-
-- Na stránke admina funguje vybavenie objednávky, teda ak stlačím tlačidlo Complete order, react pošle request do databazy, tam sa aj zmeni stav objednavky,
-  ale komponent sa nezmeni len ak načítam stránku znova, alebo napríklad takto:
-  1. na stránke admina v objednávke s červeným pozadím stlačím tlačidlo Complete order
-  2. pomocou "Back to products" vratim sa na stranku s produktmi
-  3. prejdem znova na stránku admina a už objednávka je vybavená - má zelené pozadie
